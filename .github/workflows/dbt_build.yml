@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '17 6 * * 1'    # Mondays — the pipeline runs while you sleep
+    - cron: '17 6 6 * *'    # the 6th of each month: the new supporter month lands by the 5th
   workflow_dispatch:        # …and a manual Run button
 permissions:
   contents: write           # lets the workflow update the release
