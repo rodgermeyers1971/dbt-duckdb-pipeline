@@ -14,3 +14,4 @@ data/
 *.duckbdb
 logs/
 dbt commands.txt
+.user.yml
